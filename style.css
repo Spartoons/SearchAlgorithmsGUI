@@ -1,0 +1,31 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(250, 5px);
+    grid-template-rows: repeat(250, 5px);
+}
+
+.cell {
+    width: 5px;
+    height: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.cell.start {
+    background-color: yellow;
+}
+
+.cell.end {
+    background-color: red;
+}
+
+.cell.station {
+    background-color: black;
+}
+.cell.line {
+    background-color: rgb(106, 5, 164);
+}
+
+.cell.path {
+    background-color: green;
+}
